@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>a0b5e412-6017-435a-b81b-ee94f5f5dfa7</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>AlphaSafe.UI.Desktop</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\ProfileButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\SafeNodeNoticeLayout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\SafeNodePasswordLayout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\SafeNodeCategoryLayout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\SafeTreeLayout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\BrowserPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\CreateProfilePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\PasswordPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\ProfileOverviewPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\SafePage.cs" />
+  </ItemGroup>
+</Project>

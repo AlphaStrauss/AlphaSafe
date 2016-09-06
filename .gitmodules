@@ -1,0 +1,6 @@
+[submodule "AlphaCloudApi"]
+	path = AlphaCloudApi
+	url = https://github.com/AlphaStrauss/AlphaCloudApi.git
+[submodule "Dropbox.Api"]
+	path = Dropbox.Api
+	url = https://github.com/AlphaStrauss/dropbox-sdk-dotnet
